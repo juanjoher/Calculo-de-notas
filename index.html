@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Nota</title>
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="icon" href="imagenes/icons/JH.ico">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3737285063687137"
+     crossorigin="anonymous"></script>
+</head>
+<body onload="mostrarReloj()">
+    <div id="reloj">
+        <div class="reloj-contenedor" id="contenedor">
+            <div id="hora"></div>
+            <div id="fecha"></div>
+        </div>
+    </div>
+
+    <div class="contenedor" id="cabecero" >
+        <h1>Calcular Nota</h1>  
+    </div>
+    
+    <div class="contenedor">
+        <div style="text-align: center;">
+            <button class="boton" style="cursor: pointer;" onclick="agregarElementos()">+</button>
+        </div>
+        <form id="form">
+            <input type="number" id="calificacion" placeholder="Digite la calificacion" />
+            <input type="number" id="porcentaje" placeholder="Digite el porcentaje" />
+        </form>
+    </div>
+       
+    
+    <div class="contenedor" >
+        <header id="resultado"></header>
+        <div class="elemento">
+            <ul id="elementos">
+            </ul> 
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <button class="calcular" style="cursor: pointer ;" onclick="calcular()">Calcular</button>
+        <button class="borrar" style="cursor: pointer ;" onclick="borrar()">Borrar</button>
+    </div>
+    
+    <script src="JS/index.js"></script>
+</body>
+</html>
