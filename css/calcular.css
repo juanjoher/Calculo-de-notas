@@ -2,10 +2,10 @@ html {
     background-color: #424953;
     min-height: 100%;
     font-family: "helvetica neue";
-    background: url(imagenes/fondo.png), #424953;
-    background: url(imagenes/fondo.png),
+    background: url(../imagenes/fondo.png), #424953;
+    background: url(../imagenes/fondo.png),
       -webkit-gradient(linear, right top, left top, from(#424953), to(#8D9BA4));
-    background: url(imagenes/fondo.png),
+    background: url(../imagenes/fondo.png),
       linear-gradient(to left, #424953, #424953);
   }
   
