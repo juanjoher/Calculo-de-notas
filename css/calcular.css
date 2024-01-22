@@ -22,7 +22,7 @@ html {
     max-width: 400px;
     margin: 20px auto 20px auto;
     background: white;
-    border-radius: 5px;
+    border-radius: 5px 5px 8px 8px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
     align-items: center;
   }
@@ -111,6 +111,7 @@ html {
     padding: 10px;
     background: #7c7878;
     color: #fff;
+    border-radius: 0 0 8px 8px;
   }
   
 
@@ -232,7 +233,10 @@ html {
    
  .elemento:active .elemento_porcentaje { 
    width: 40%;
-   transform: translateX(-10px); }
+   transform: translateX(-10px); 
+  }
+
+
  
 
 
