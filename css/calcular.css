@@ -30,6 +30,7 @@ html {
   #cabecero {
      background: linear-gradient(to right,#424953,#8D9BA4);
     text-align: center;
+    
   }
   
   .elemento {
@@ -48,6 +49,7 @@ html {
   form {
     text-align: center;
     margin-left: 20px;
+    color: rgb(86, 73, 73);
   }
   
   .boton {
@@ -127,9 +129,12 @@ html {
     box-shadow: inset 0 -3px 0 0 #424953;
   }
   
-  ::placeholder {
+  input[type="number"]::placeholder {
     color: rgb(0, 0, 0);
     opacity: 1;
+  }
+  ::value{
+    color:#000000;
   }
   
 
@@ -152,6 +157,8 @@ html {
 }
 #reloj{
   color: #fff;
+  width: 100%;
+  display: block;
 }
 
 
