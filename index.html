@@ -21,14 +21,16 @@
     </div>
     
     <div class="contenedor">
-        <div style="text-align: center;">
-            <button id="agregar" class="boton" style="cursor: pointer;" onclick="agregarElementos()">
-                <ion-icon name="add-outline" class="mas"></ion-icon>
-            </button>
-        </div>
+        
         <form id="form">
-            <b><input type="number" id="calificacion" placeholder="Digite la calificacion" />
-            <input type="number" id="porcentaje" placeholder="Digite el porcentaje" />
+            <div style="text-align: center;">
+                <button type="submit" id="agregar" class="boton" style="cursor: pointer;" onclick="agregarElementos()" >
+                    <ion-icon name="add-outline" class="mas"></ion-icon>
+                    </button>
+            </div>
+            
+            <b><input type="number" id="calificacion" placeholder="Digite la calificacion" required="true" />
+            <input type="number" id="porcentaje" placeholder="Digite el porcentaje" required="true" />
             </b>
         </form>
         <hr />
