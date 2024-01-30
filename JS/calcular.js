@@ -103,11 +103,17 @@ setInterval(mostrarReloj,1000);
 const eliminar_unidad =(id) => {
     let indiceEliminar=elementos.findIndex(elemento => elemento.id ===id );
     if(elementos.length ===1){
-        document.getElementById("calcular").style.display="none";
+        elementos =[];
+        document.getElementById('cont').innerHTML=`<div class="elementos" id="elementos"></div>`;
+         document.getElementById("calcular").style.display="none";
         document.getElementById("borrar").style.display="none";
+        document.getElementById('resultado').innerHTML= '';
+       cargarElementos();
+       }else{
+        elementos.splice(indiceEliminar, 1);
+       cargarElementos();
        }
-    elementos.splice(indiceEliminar, 1);
-   cargarElementos();
+    
 
    
 }
