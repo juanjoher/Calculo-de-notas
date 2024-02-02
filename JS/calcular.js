@@ -72,7 +72,7 @@ function calcular(){
 
     for(let cantidad of elementos){
          nota= cantidad.calificacion * (cantidad.porcentaje/100) ;
-        resultado+=nota;
+        resultado+=nota.toFixed(2);
     }
     console.log(nota);
     document.getElementById("cont").innerHTML+=`<footer id="resultado"></footer>`
