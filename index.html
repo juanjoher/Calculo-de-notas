@@ -21,25 +21,25 @@
     <div class="contenedor" id="cabecero" >
         <h1>Calcular Nota</h1>  
     </div>
-    <div>
+    <div class="all-con">
     <div class="contenedor">
-        
+        <div style="text-align: center;">
+            <button class="boton" style="cursor: pointer;" onclick="agregarElementos()">+</button>
+        </div>
         <form id="form">
             <input type="number" id="calificacion" placeholder="Digite la calificacion" />
             <input type="number" id="porcentaje" placeholder="Digite el porcentaje" />
         </form>
-        <div style="text-align: center;">
-            <button class="boton" style="cursor: pointer;" onclick="agregarElementos()">+</button>
-        </div>
+        <hr style="border: 1px solid #000;" />
+        
     </div>
        
-    
     <div class="contenedor" >
-        <header id="resultado"></header>
         <div class="elemento">
             <ul id="elementos">
             </ul> 
         </div>
+        <footer id="resultado"></footer>
     </div>
 </div>
 
