@@ -1,12 +1,12 @@
 html {
-    background-color: #f32121;
+    background-color: #918282;
     min-height: 100%;
     font-family: "helvetica neue";
-    background: url(imagenes/fondo.png), #f32121;
+    background: url(imagenes/fondo.png), #886767;
     background: url(imagenes/fondo.png),
-      -webkit-gradient(linear, right top, left top, from(#f32121), to(#bb9e38));
+      -webkit-gradient(linear, right top, left top, from(#706464), to(#2233ec));
     background: url(imagenes/fondo.png),
-      linear-gradient(to left, #f32121, #bb9e38);
+      linear-gradient(to left, #298900, #689a67);
   }
   
   h1 {
@@ -15,12 +15,12 @@ html {
     font-family: sans-serif;
     font-size: 40px;
     text-shadow: 0px 0px 60px #333;
-   ;
+   
   }
   
   .contenedor {
     max-width: 400px;
-    margin: 50px auto;
+    margin: 10px auto;
     background: white;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
@@ -28,7 +28,7 @@ html {
   }
   
   #cabecero {
-     background: linear-gradient(to right,#f30202,#cff706);
+     background: linear-gradient(to right,#103f00,#4ba867);
     text-align: center;
   }
   
@@ -43,7 +43,11 @@ html {
     border-bottom: 0;
   }
   
-
+  .all-con{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 40px;
+  }
   
   form {
     text-align: center;
@@ -55,14 +59,14 @@ html {
     width: 50px;
     border-radius: 50%;
     border-color: transparent;
-    background: linear-gradient(to bottom,#f30202,#cff706);
+    background: linear-gradient(to bottom,#01c21e,#aab37f);
     color: #fff;
     font-size: 30px;
     padding-bottom: 6px;
     border-width: 0;
   }
   .boton:hover{
-    background: linear-gradient(to top,#f30202,#cff706);
+    background: linear-gradient(to top,#01c21e,#aab37f);
   
   }
   .calcular{
@@ -71,7 +75,7 @@ html {
     width: 100px;
     border-radius: 20%;
     border-color: transparent;
-    background: linear-gradient(to bottom,#f30202,#cff706);
+    background: linear-gradient(to bottom,#05370c,#30ca37);
     color: #fff;
     font-size: 20px;
     margin-top: 6px;
@@ -81,7 +85,7 @@ html {
     border-width: 0;
   }
   .calcular:hover{
-    background: linear-gradient(to top,#f30202,#cff706);
+    background: linear-gradient(to top,#05370c,#30ca37);
   
   }
   .borrar{
@@ -90,7 +94,7 @@ html {
     width: 100px;
     border-radius: 20%;
     border-color: transparent;
-    background: linear-gradient(to bottom,#f30202,#cff706);
+    background: linear-gradient(to bottom,#05370c,#30ca37);
     color: #fff;
     font-size: 20px;
     margin-top: 6px;
@@ -101,13 +105,13 @@ html {
   }
 
   .borrar:hover{
-    background: linear-gradient(to top,#f30202,#cff706);
+    background: linear-gradient(to top,#05370c,#30ca37);
   
   }
   #resultado{
     text-align: center;
     padding: 10px;
-    background: linear-gradient(to right,#f30202,#cff706);
+    background: linear-gradient(to right,#01c21e,#aab37f);
     color: #fff;
   }
   
@@ -123,7 +127,7 @@ html {
   }
   input[type="number"]:focus {
     outline: none;
-    box-shadow: inset 0 -3px 0 0 #f32929;
+    box-shadow: inset 0 -3px 0 0 #3f9f04;
   }
   
   ::placeholder {
