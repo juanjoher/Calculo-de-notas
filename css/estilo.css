@@ -33,6 +33,7 @@ html {
   }
   
   .elemento {
+    
     min-height: 70px;
     display: flex;
     align-items: center;
@@ -43,11 +44,7 @@ html {
     border-bottom: 0;
   }
   
-  .all-con{
-    background-color: #ffffff;
-    border-radius: 5px;
-    margin: 40px;
-  }
+
   
   form {
     text-align: center;
